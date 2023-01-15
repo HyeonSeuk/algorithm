@@ -4,6 +4,6 @@ while True:
     if a == '#' and b == 0 and c == 0:
         break
     if b > 17 or c >= 80:
-        print('%s Senior' % a)
+        print(f'{a} Senior')
     else:
-        print('%s Junior' % a)
+        print(f'{a} Junior')
