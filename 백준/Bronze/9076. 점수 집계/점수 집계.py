@@ -1,13 +1,9 @@
-for i in range(int(input())):
-    lst = []
-    a = map(int,input().split())
-    for i in a:
-        lst.append(i)
-        lst.sort()
-    
-    x = lst[3] - lst[1]
-
-    if x < 4:
-        print(sum(lst[1:4]))
-    else:
+for _ in range(int(input())):
+    N = list(map(int,input().split()))
+    N.sort()
+    N.pop(0)
+    N.pop()
+    if N[2] - N [0] >= 4:
         print('KIN')
+    else:
+        print(N[0]+N[1]+N[2])
