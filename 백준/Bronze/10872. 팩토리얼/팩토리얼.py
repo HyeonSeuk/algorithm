@@ -1,5 +1,5 @@
-a = int(input())
-n = 1
-for i in range(1, a+1):
-      n = i * n
-print(n)
+n = int(input())
+cnt = 1
+for i in range(1, n+1):
+    cnt = cnt * i
+print(cnt) 
