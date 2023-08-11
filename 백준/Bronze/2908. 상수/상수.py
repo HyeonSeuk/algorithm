@@ -1,4 +1,6 @@
 a, b = input().split()
-x = a[::-1]
-y = b[::-1]
-print(max(int(x), int(y)))
+
+a = a[::-1]
+b = b[::-1]
+
+print(max(int(a), int(b)))
