@@ -1,8 +1,10 @@
 n = int(input())
-list = []
+lst = []
 for i in range(n):
     number = int(input())
-    list.append(number)
-    list.sort()
-for j in range(len(list)):
-    print(list[j])
+    lst.append(number)
+
+lst.sort()
+
+for j in lst:
+    print(j)
